@@ -5,7 +5,7 @@ function Wishlist({ items }) {
 
     return <>
         <Navbar></Navbar>
-        <h1>Welcome to Wishlist page</h1>
+        <h1 style={{ marginTop: "56px" }}>Welcome to Wishlist page</h1>
     </>
 
 }

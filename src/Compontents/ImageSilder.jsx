@@ -15,7 +15,8 @@ function ImageSilder() {
     const src4 = "https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Toys/HTL2023/GW/Homepage_DesktopHeroTemplate_3000x1200-Toy-Fiesta-APAY_2x_unrec._CB570529351_.jpg";
 
     return <>
-        <div id="carouselExampleCaptions" style={{ height: "300px" }} className="carousel slide" data-bs-ride="false">
+
+        <div id="carouselExampleCaptions" style={{ height: "300px", marginTop: "56px" }} className="carousel slide" data-bs-ride="false">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
